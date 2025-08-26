@@ -1,0 +1,38 @@
+/* 
+.btn {
+        @apply inline-flex items-center justify-center rounded-lg px-4 py-2
+                font-semibold text-sm transition shadow focus:outline-none
+                focus:ring-2 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed;
+        gap: 0.5rem;
+      }
+    
+      .btn-primary {
+        @apply inline-block px-8 py-3 font-medium text-white rounded-xl shadow-lg
+              transition-transform focus:outline-none focus:ring-4;
+        background-color: var(--brand-600);
+       
+      }
+      .btn-primary:hover {
+        background-color: var(--brand-700);
+        transform: scale(1.05);
+      }
+      .btn-primary:focus-visible {
+        @apply ring-4;
+        box-shadow: var(--ring-shadow, 0 0 #000);
+      }
+      .btn-primary:focus-visible {
+        --tw-ring-color: var(--brand-400);
+      }
+    
+      .btn-secondary {
+        @apply inline-block px-8 py-3 font-medium rounded-xl transition
+              border text-brand shadow-sm focus:outline-none focus:ring-4;
+        color: var(--brand-600);
+        border: 1px solid var(--brand-600);
+      }
+      .btn-secondary:hover {
+        background-color: var(--neutral-50);
+      }
+      .btn-secondary:focus-visible {
+        --tw-ring-color: var(--brand-400);
+      } */

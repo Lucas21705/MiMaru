@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "titulo": "Maru",
+    "descripcion": "Maru a los 7 años, una niña llena de curiosidad y alegría. Le encanta explorar el mundo que la rodea, siempre con una sonrisa en su rostro.",
+    "imagen": "/img/maru/maru-1.jpeg"
+  },
+  {
+    "id": 2,
+    "titulo": "Maru",
+    "descripcion": "Maru ",
+    "imagen": "/img/maru/maru-2.jpeg"
+  },
+  {
+    "id": 3,
+    "titulo": "Maru",
+    "descripcion": "Maru ",
+    "imagen": "/img/maru/maru-3.jpeg"
+  },
+  {
+    "id": 4,
+    "titulo": "Maru",
+    "descripcion": "Maru ",
+    "imagen": "/img/maru/maru-4.jpeg"
+  },
+  {
+    "id": 5,
+    "titulo": "Maru",
+    "descripcion": "Maru ",
+    "imagen": "/img/maru/maru-5.jpeg"
+  },
+  {
+    "id": 6,
+    "titulo": "Maru",
+    "descripcion": "Maru ",
+    "imagen": "/img/maru/maru-6.jpeg"
+  },
+  {
+    "id": 7,
+    "titulo": "Maru",
+    "descripcion": "Maru ",
+    "imagen": "/img/maru/maru-7.jpeg"
+  },
+  {
+    "id": 8,
+    "titulo": "Maru",
+    "descripcion": "Maru ",
+    "imagen": "/img/maru/maru-8.jpeg"
+  },
+  {
+    "id": 9,
+    "titulo": "Maru",
+    "descripcion": "Maru ",
+    "imagen": "/img/maru/maru-9.jpeg"
+  },
+  {
+    "id": 10,
+    "titulo": "Maru",
+    "descripcion": "Maru ",
+    "imagen": "/img/maru/maru-10.jpeg"
+  },
+  {
+    "id": 11,
+    "titulo": "Maru",
+    "descripcion": "Maru ",
+    "imagen": "/img/maru/maru-11.jpeg"
+  }
+]

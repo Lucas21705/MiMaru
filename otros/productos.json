@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "titulo": "Berenjena al escabeche",
+    "precio": 3500,
+    "descripcion": "Berenjenas en rodajas, marinadas con vinagre, ajo y especias.",
+    "imagen": "https://example.com/berenjena-escabeche.jpg",
+    "categoria": "conservas"
+  },
+  {
+    "id": 2,
+    "titulo": "Lengua a la vinagreta",
+    "precio": 4000,
+    "descripcion": "Lengua de res cocida y marinada en vinagreta con cebolla y pimientos.",
+    "imagen": "https://example.com/pimientos-asados.jpg",
+    "categoria": "conservas"
+  },
+  {
+    "id": 3,
+    "titulo": "Chimichurri",
+    "precio": 3000,
+    "descripcion": "Chimichurri casero, una mezcla de hierbas, ajo y aceite, ideal para carnes.",
+    "imagen": "https://example.com/aceitunas-verdes.jpg",
+    "categoria": "salsas"
+  },
+  {
+    "id": 4,
+    "titulo": "Mermelada de Naranja",
+    "precio": 2500,
+    "descripcion": "Mermelada de naranja casera, ideal para untar en tostadas o postres.",
+    "imagen": "https://example.com/salsa-tomate.jpg",
+    "categoria": "mermeladas"
+  }
+]
