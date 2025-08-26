@@ -2,7 +2,7 @@
   <footer
     class="py-8 mt-40 text-sm text-center text-gray-700 bg-brand-light/30"
   >
-    <p>© 2025 Mi Maru. Todos los derechos reservados hola.</p>
+    <p>© 2025 Mi Maru. Todos los derechos reservados.</p>
     <div class="flex items-center justify-center gap-6 mt-4">
       <!-- Instagram -->
       <a
