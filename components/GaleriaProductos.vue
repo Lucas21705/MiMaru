@@ -68,7 +68,7 @@ const data = ref([
   },
   {
     id: 3,
-    titulo: "Chimichurri",
+    titulo: "Chimichurri Argentino",
     precio: 4800,
     descripcion:
       "Chimichurri casero, una mezcla de hierbas, ajo y aceite, ideal para carnes.",
@@ -85,7 +85,7 @@ const data = ref([
     categoria: "mermeladas",
   },
   {
-    id: 4,
+    id: 5,
     titulo: "Mermelada de Tomate",
     precio: 5000,
     descripcion:
@@ -94,12 +94,21 @@ const data = ref([
     categoria: "mermeladas",
   },
   {
-    id: 4,
+    id: 6,
     titulo: "Pickles",
     precio: 4500,
     descripcion:
       "Mermelada de naranja casera, ideal para untar en tostadas o postres.",
-    imagen: "/img/MermeladaNaranja.png",
+    imagen: "/img/Pickles.png",
+    categoria: "mermeladas",
+  },
+  {
+    id: 7,
+    titulo: "Ajíes en Vinagre",
+    precio: 4500,
+    descripcion:
+      "Ajíes frescos en vinagre, crujientes y ácidos, perfectos para acompañar comidas.",
+    imagen: "/img/AjiesEnVinagre.png",
     categoria: "mermeladas",
   },
 ]);
