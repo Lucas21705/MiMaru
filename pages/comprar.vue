@@ -79,6 +79,13 @@ const cart = reactive([
     qty: 0,
     img: "/img/MermeladaTomate.png",
   },
+   {
+    id: 1,
+    name: "Mermelada de Cítricos 360gr",
+    price: 5000,
+    qty: 0,
+    img: "/img/MermeladaNaranja.png",
+  },
   {
     id: 3,
     name: "Berenjena en escabeche 360gr",
