@@ -139,7 +139,7 @@ const cart = reactive([
   },
   {
     id: 4,
-    name: "Dulde de Berenjenas 360gr",
+    name: "Dulce de Berenjenas 360gr",
     price: 5000,
     qty: 0,
     img: "/img/MermeladaNaranja.png",
