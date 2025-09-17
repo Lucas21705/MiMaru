@@ -55,7 +55,7 @@ const data = ref([
     descripcion:
       "Berenjenas en rodajas, marinadas con vinagre, ajo y especias.",
     imagen: "/img/BerenjenaEnEscabeche.png",
-    categoria: "conservas",
+    categoria: "Salados",
   },
   {
     id: 2,
@@ -64,7 +64,7 @@ const data = ref([
     descripcion:
       "Lengua de res cocida y marinada en vinagreta con cebolla y pimientos.",
     imagen: "/img/Lengua.png",
-    categoria: "conservas",
+    categoria: "Salados",
   },
   {
     id: 3,
@@ -73,7 +73,7 @@ const data = ref([
     descripcion:
       "Chimichurri casero, una mezcla de hierbas, ajo y aceite, ideal para carnes.",
     imagen: "/img/Chimichurri.png",
-    categoria: "salsas",
+    categoria: "Salados",
   },
   {
     id: 4,
@@ -82,7 +82,7 @@ const data = ref([
     descripcion:
       "Mermelada de Naranja casera, ideal para untar en tostadas o postres.",
     imagen: "/img/MermeladaNaranja.png",
-    categoria: "mermeladas",
+    categoria: "Dulces",
   },
   {
     id: 5,
@@ -91,16 +91,16 @@ const data = ref([
     descripcion:
       "Mermelada de Tomate casera, ideal para untar en tostadas o postres.",
     imagen: "/img/MermeladaTomate.png",
-    categoria: "mermeladas",
+    categoria: "Dulces",
   },
   {
     id: 6,
     titulo: "Pickles",
     precio: 4500,
     descripcion:
-      "Mermelada de naranja casera, ideal para untar en tostadas o postres.",
+      "Mix de vegetales frescos en vinagre, crocantes y sabrosos, ideales para acompañar carnes, picadas o ensaladas.",
     imagen: "/img/Pickles.png",
-    categoria: "mermeladas",
+    categoria: "Salados",
   },
   {
     id: 7,
@@ -109,7 +109,25 @@ const data = ref([
     descripcion:
       "Ajíes frescos en vinagre, crujientes y ácidos, perfectos para acompañar comidas.",
     imagen: "/img/AjiesEnVinagre.png",
-    categoria: "mermeladas",
+    categoria: "Salados",
+  },
+  {
+    id: 8,
+    titulo: "Mermelada de Cítricos",
+    precio: 5000,
+    descripcion:
+      "Mermelada de Naranja, Pomelo y Limón casera, ideal para untar en tostadas o postres.",
+    imagen: "/img/MermeladaNaranja.png",
+    categoria: "Dulces",
+  },
+  {
+    id: 9,
+    titulo: "Dulce de Berenjenas",
+    precio: 5000,
+    descripcion:
+      "Dulce de Brenjenas con Nueces y Almendras casera, ideal para untar en tostadas o postres.",
+    imagen: "/img/Pickles.png",
+    categoria: "Dulces",
   },
 ]);
 
