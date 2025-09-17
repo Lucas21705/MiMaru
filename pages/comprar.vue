@@ -6,40 +6,88 @@
           Carrito de Compra
         </h1>
 
-        <div v-if="cart.length" class="space-y-4">
-          <div
-            v-for="(item, index) in cart"
-            :key="item.id"
-            class="flex items-center justify-between pb-4 border-b"
-          >
-            <div class="flex items-center gap-3">
-              <img
-                :src="item.img"
-                alt=""
-                class="object-cover w-10 h-10 border rounded-full"
-              />
-              <div>
-                <p class="font-medium text-gray-800">{{ item.name }}</p>
-                <p class="text-sm text-gray-500">
-                  Precio: ${{ item.price.toLocaleString("es-AR") }}
-                </p>
+        <!-- Productos Dulces -->
+        <div v-if="dulces.length" class="mb-8">
+          <h2 class="mb-4 text-xl font-semibold text-brand-600">
+            Sabores Dulces
+          </h2>
+          <div class="space-y-4">
+            <div
+              v-for="(item, index) in dulces"
+              :key="item.id"
+              class="flex items-center justify-between pb-4 border-b"
+            >
+              <div class="flex items-center gap-3">
+                <img
+                  :src="item.img"
+                  alt=""
+                  class="object-cover w-10 h-10 border rounded-full"
+                />
+                <div>
+                  <p class="font-medium text-gray-800">{{ item.name }}</p>
+                  <p class="text-sm text-gray-500">
+                    Precio: ${{ item.price.toLocaleString("es-AR") }}
+                  </p>
+                </div>
+              </div>
+              <div class="flex items-center gap-2">
+                <button
+                  @click="decreaseQty(cart.indexOf(item))"
+                  class="flex items-center justify-center w-8 h-8 transition rounded-full bg-brand-light/30 hover:bg-brand/30"
+                >
+                  -
+                </button>
+                <span class="w-8 text-center">{{ item.qty }}</span>
+                <button
+                  @click="increaseQty(cart.indexOf(item))"
+                  class="flex items-center justify-center w-8 h-8 transition rounded-full bg-brand-light/30 hover:bg-brand/30"
+                >
+                  +
+                </button>
               </div>
             </div>
+          </div>
+        </div>
 
-            <div class="flex items-center gap-2">
-              <button
-                @click="decreaseQty(index)"
-                class="flex items-center justify-center w-8 h-8 transition rounded-full bg-brand-light/30 hover:bg-brand/30"
-              >
-                -
-              </button>
-              <span class="w-8 text-center">{{ item.qty }}</span>
-              <button
-                @click="increaseQty(index)"
-                class="flex items-center justify-center w-8 h-8 transition rounded-full bg-brand-light/30 hover:bg-brand/30"
-              >
-                +
-              </button>
+        <!-- Productos Salados -->
+        <div v-if="salados.length">
+          <h2 class="mb-4 text-xl font-semibold text-brand-600">
+            Sabores Salados
+          </h2>
+          <div class="space-y-4">
+            <div
+              v-for="(item, index) in salados"
+              :key="item.id"
+              class="flex items-center justify-between pb-4 border-b"
+            >
+              <div class="flex items-center gap-3">
+                <img
+                  :src="item.img"
+                  alt=""
+                  class="object-cover w-10 h-10 border rounded-full"
+                />
+                <div>
+                  <p class="font-medium text-gray-800">{{ item.name }}</p>
+                  <p class="text-sm text-gray-500">
+                    Precio: ${{ item.price.toLocaleString("es-AR") }}
+                  </p>
+                </div>
+              </div>
+              <div class="flex items-center gap-2">
+                <button
+                  @click="decreaseQty(cart.indexOf(item))"
+                  class="flex items-center justify-center w-8 h-8 transition rounded-full bg-brand-light/30 hover:bg-brand/30"
+                >
+                  -
+                </button>
+                <span class="w-8 text-center">{{ item.qty }}</span>
+                <button
+                  @click="increaseQty(cart.indexOf(item))"
+                  class="flex items-center justify-center w-8 h-8 transition rounded-full bg-brand-light/30 hover:bg-brand/30"
+                >
+                  +
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -71,6 +119,7 @@ const cart = reactive([
     price: 5000,
     qty: 0,
     img: "/img/MermeladaNaranja.png",
+    type: "dulce",
   },
   {
     id: 2,
@@ -78,48 +127,63 @@ const cart = reactive([
     price: 5000,
     qty: 0,
     img: "/img/MermeladaTomate.png",
+    type: "dulce",
   },
-   {
-    id: 1,
+  {
+    id: 3,
     name: "Mermelada de Cítricos 360gr",
     price: 5000,
     qty: 0,
     img: "/img/MermeladaNaranja.png",
+    type: "dulce",
   },
   {
-    id: 3,
+    id: 4,
+    name: "Dulde de Berenjenas 360gr",
+    price: 5000,
+    qty: 0,
+    img: "/img/MermeladaNaranja.png",
+    type: "dulce",
+  },
+  {
+    id: 5,
     name: "Berenjena en escabeche 360gr",
     price: 8800,
     qty: 0,
     img: "/img/BerenjenaEnEscabeche.png",
+    type: "salado",
   },
   {
-    id: 4,
+    id: 5,
     name: "Lengua a la vinagreta 360gr",
     price: 12500,
     qty: 0,
     img: "/img/Lengua.png",
+    type: "salado",
   },
   {
-    id: 5,
+    id: 6,
     name: "Pickles 360gr",
     price: 4500,
     qty: 0,
     img: "/img/Pickles.png",
+    type: "salado",
   },
   {
-    id: 6,
+    id: 7,
     name: "Chimichurri Argentino 360gr",
     price: 4800,
     qty: 0,
     img: "/img/Chimichurri.png",
+    type: "salado",
   },
-   {
-    id: 7,
+  {
+    id: 8,
     name: "Ajíes en Vinagre 360gr",
     price: 4500,
     qty: 0,
     img: "/img/AjiesEnVinagre.png",
+    type: "salado",
   },
 ]);
 
@@ -158,6 +222,9 @@ const sendOrder = () => {
   const url = `https://wa.me/${phone}?text=${message}`;
   window.open(url, "_blank");
 };
+
+const dulces = computed(() => cart.filter((item) => item.type === "dulce"));
+const salados = computed(() => cart.filter((item) => item.type === "salado"));
 
 useSeoMeta({
   ogTitle: "Mi Maru - Productos Artesanales",
