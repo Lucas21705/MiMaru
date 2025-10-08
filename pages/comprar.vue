@@ -116,7 +116,7 @@ const cart = reactive([
   {
     id: 1,
     name: "Mermelada de Naranja 360gr",
-    price: 5000,
+    price: 5800,
     qty: 0,
     img: "/img/MermeladaNaranja.png",
     type: "dulce",
@@ -124,7 +124,7 @@ const cart = reactive([
   {
     id: 2,
     name: "Mermelada de Tomate 360gr",
-    price: 5000,
+    price: 5800,
     qty: 0,
     img: "/img/MermeladaTomate.png",
     type: "dulce",
@@ -132,7 +132,7 @@ const cart = reactive([
   {
     id: 3,
     name: "Mermelada de Cítricos 360gr",
-    price: 5000,
+    price: 5800,
     qty: 0,
     img: "/img/MermeladaNaranja.png",
     type: "dulce",
@@ -140,15 +140,23 @@ const cart = reactive([
   {
     id: 4,
     name: "Dulce de Berenjenas 360gr",
-    price: 5000,
+    price: 5800,
     qty: 0,
     img: "/img/DulceDeBerenjenas.png",
+    type: "dulce",
+  },
+    {
+    id: 5.1,
+    name: "Mermelada de Frutilla 360gr",
+    price: 6300,
+    qty: 0,
+    img: "/img/MermeladaTomate.png",
     type: "dulce",
   },
   {
     id: 5,
     name: "Berenjena en escabeche 360gr",
-    price: 8800,
+    price: 9500,
     qty: 0,
     img: "/img/BerenjenaEnEscabeche.png",
     type: "salado",
@@ -156,7 +164,7 @@ const cart = reactive([
   {
     id: 5,
     name: "Lengua a la vinagreta 360gr",
-    price: 12500,
+    price: 13500,
     qty: 0,
     img: "/img/Lengua.png",
     type: "salado",
