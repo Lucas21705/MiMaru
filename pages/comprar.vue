@@ -192,6 +192,13 @@ const cart = reactive([
     qty: 0,
     img: "/img/AjiesEnVinagre.png",
     type: "salado",
+  }, {
+    id: 8,
+    name: "Morrones Agridulces (en vinagre y ajo) 360gr",
+    price: 3300,
+    qty: 0,
+    img: "/img/Morrones.png",
+    type: "salado",
   },
 ]);
 
