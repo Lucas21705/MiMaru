@@ -131,7 +131,7 @@ const cart = reactive([
   },
   {
     id: 3,
-    name: "Mermelada de Cítricos 360gr",
+    name: "Mermelada de Cítricos (naranja, pomelo y limón) 360gr",
     price: 5800,
     qty: 0,
     img: "/img/MermeladaNaranja.png",
@@ -139,18 +139,26 @@ const cart = reactive([
   },
   {
     id: 4,
-    name: "Dulce de Berenjenas 360gr",
+    name: "Dulce de Berenjenas (con nueces y almendras) 360gr",
     price: 5800,
     qty: 0,
     img: "/img/DulceDeBerenjenas.png",
     type: "dulce",
   },
-    {
+  {
     id: 5.1,
     name: "Mermelada de Frutilla 360gr",
     price: 6300,
     qty: 0,
     img: "/img/MermeladaTomate.png",
+    type: "dulce",
+  },
+  {
+    id: 5.2,
+    name: "Mermelada de Zapallo 360gr",
+    price: 5800,
+    qty: 0,
+    img: "/img/MermeladaZapallo.png",
     type: "dulce",
   },
   {
@@ -192,7 +200,8 @@ const cart = reactive([
     qty: 0,
     img: "/img/AjiesEnVinagre.png",
     type: "salado",
-  }, {
+  },
+  {
     id: 8,
     name: "Morrones Agridulces (en vinagre y ajo) 360gr",
     price: 3300,
